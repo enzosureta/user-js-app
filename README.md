@@ -15,6 +15,8 @@ Features:
 * Accessibility Improvements
 * Responsive Design
 
+## Live Demo
+https://enzosureta.github.io/user-js-app
 
 # Folder Structure
 
