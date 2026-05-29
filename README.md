@@ -47,5 +47,5 @@ This project is open-source and available under the MIT License.
 
 ```
 txt
-Built a frontend interview showcase application using Vanilla JavaScript featuring reusable UI components, API integration, localStorage persistence, accessibility improvements, and responsive design.
+Built for portfolio using Vanilla JavaScript featuring reusable UI components, API integration, localStorage persistence, accessibility improvements, and responsive design.
 ```
