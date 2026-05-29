@@ -1,6 +1,6 @@
 # Frontend Users Showcase App (JS)
 
-This project is designed specifically for frontend interviews and portfolio showcases.
+This project is designed specifically for portfolio showcases.
 
 Features:
 
