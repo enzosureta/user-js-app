@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Users App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <header class="header">
+    <div class="container">
+      <h1>Users App</h1>
+      <p>Vanilla JavaScript • DOM Manipulation • API Fetch • Components</p>
+    </div>
+  </header>
+  <main id="main" class="container">
+    <section class="search-section">
+      <input type="text" id="searchInput" placeholder="Search users..." aria-label="Search users" />
+    </section>
+    <section class="tabs-section">
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-tab="users">Users</button>
+        <button class="tab" data-tab="saved">Saved</button>
+      </div>
+      <div class="tab-content active" id="users">
+        <div id="userGrid" class="grid"></div>
+      </div>
+      <div class="tab-content" id="saved">
+        <div id="savedGrid" class="grid"></div>
+      </div>
+    </section>
+
+  </main>
+  <div class="modal hidden" id="modal">
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="close-btn" id="closeModal" aria-label="Close modal">
+        ×
+      </button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
